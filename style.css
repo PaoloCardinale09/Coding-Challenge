@@ -1,0 +1,93 @@
+ /*
+ sistemare codice con selettori avanzati
+ } */
+
+*{
+  margin: 0;
+}
+
+.container{
+  width: auto;
+  margin-top: 50px;
+}
+
+.cornice{
+  background-color: rgba(0,0,0,.5);
+  color: black;
+  width: 70%;
+  height: 700px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.rightarrow:after{
+  content: "\21A6"
+}
+
+header, main{
+  font-family: 'Poppins', sans-serif;Sono
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+img{
+  width: 200px;
+  margin-top: 65px;
+}
+
+header  {
+  text-align: center;
+  color: limegreen;
+}
+
+nav {
+  background-color: limegreen;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 7px;
+}
+
+h2, h3{
+  display: inline-block;
+}
+
+main{
+  color: white;
+  margin: auto;
+  width: 81.35%;
+  margin-top: 20PX;
+  line-height: 15px;
+}
+
+p{
+  margin: 5px;
+  font-size: 13px;
+}
+
+section > div {
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 25px;
+}
+
+.statusbatterygino{
+  color: orange;
+  background-color: orange;
+  width: 35%;
+}
+
+.statusbatterymike{
+  color: green;
+  background-color: green;
+  width: 60%;
+}
+
+.statusbatteryfede{
+  color: red;
+  background-color: red;
+  width: 15%;
+}
